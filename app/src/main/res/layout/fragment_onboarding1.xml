@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".Fragment.OnBoardDingFragment">
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="327dp"
+        android:src="@drawable/onboarding2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Trải Nghiệm Sự Tươi Mới và Ngọt Ngào!" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#707070" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Trải nghiệm sự tươi mới và ngọt ngào của trái cây tốt cho sức khỏe, chỉ với vài cú chạm trên điện thoại của bạn!"
+        android:textColor="@color/dark_blue"/>
+
+</LinearLayout>

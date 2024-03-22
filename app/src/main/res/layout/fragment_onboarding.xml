@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".Fragment.OnBoardDingFragment">
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="327dp"
+        android:src="@drawable/onboarding1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:text="Khám Phá Thế Giới Trái Cây Tươi Mát!" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#707070" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Tìm kiếm sự tươi mới và ngon lành? Hãy khám phá ngay thế giới trái cây tươi mát qua ứng dụng của chúng tôi!"
+        android:textColor="@color/dark_blue"/>
+
+</LinearLayout>
